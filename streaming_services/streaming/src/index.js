@@ -1,8 +1,6 @@
 const express = require("express");
 const fs = require("fs");
 
-const app = express();
-
 //
 // Throws an error if the PORT environment variable is missing.
 //
@@ -15,29 +13,20 @@ if (!process.env.PORT) {
 //
 const PORT = process.env.PORT;
 
+const app = express();
+
 //
 // Registers a HTTP GET route for video streaming.
 //
-app.get("/video", (req, res) => {
+app.get("/video", async (req, res) => {
+    const videoPath = "./videos/SampleVideo_1280x720_1mb.mp4";
+    const stats = await fs.promises.stat(videoPath);
 
-    //
-    // Original video from here:
-    // https://sample-videos.com
-    //
-    const path = "../videos/SampleVideo_1280x720_1mb.mp4";
-    fs.stat(path, (err, stats) => {
-        if (err) {
-            console.error("An error occurred ");
-            res.sendStatus(500);
-            return;
-        }
-
-        res.writeHead(200, {
-            "Content-Length": stats.size,
-            "Content-Type": "video/mp4",
-        });
-        fs.createReadStream(path).pipe(res);
+    res.writeHead(200, {
+        "Content-Length": stats.size,
+        "Content-Type": "video/mp4",
     });
+    fs.createReadStream(videoPath).pipe(res);
 });
 
 //
