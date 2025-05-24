@@ -1,17 +1,18 @@
 version: '3'
 services:
-
   video-streaming:
     image: video-streaming
-    build: 
+    build:
       context: ./streaming
       dockerfile: Dockerfile
     container_name: video-streaming
     ports:
-     - "4000:80"
+      - "4000:80"
     volumes:
       - /mnt/media/movies:/media/movies:ro # Read-only access to your movie library
       - /mnt/media/tvshows:/media/tvshows:ro # Read-only access to your TV show library
     environment:
       - PORT=80
+      - MEDIA_BASE_DIR_MOVIES=/media/movies # Explicitly set this if desired
+      - MEDIA_BASE_DIR_TVSHOWS=/media/tvshows # Explicitly set this if desired
     restart: "no"
