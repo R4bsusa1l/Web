@@ -1,4 +1,12 @@
-{
-    "_id" : { "$oid": "5d9e690ad76fe06a3d7ae416" },
-    "videoPath" : "SampleVideo_1280x720_1mb.mp4"
-}
+[
+    {
+        "name": "Sample Movie 1",
+        "dir": "/media/movies",
+        "filename": "SampleVideo_1280x720_1mb.mp4"
+    },
+    {
+        "name": "Another TV Show",
+        "dir": "/media/tvshows",
+        "filename": "AnotherTVShow.mp4"
+    }
+]

@@ -6,7 +6,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const showNavigationButton = document.getElementById('show-navigation');
     const fullscreenButton = document.querySelector('.fullscreen-button');
 
-    // Function to switch pages
     const showPage = (pageId) => {
         document.querySelectorAll('.page').forEach(page => {
             page.classList.remove('active');
@@ -26,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
             videoList.innerHTML = ''; // Clear skeleton items
 
             if (videos.length === 0) {
-                videoList.innerHTML = '<li>No MP4 videos found.</li>';
+                videoList.innerHTML = '<li>No videos found in the database.</li>';
                 return;
             }
 
@@ -35,19 +34,17 @@ document.addEventListener('DOMContentLoaded', () => {
                 const link = document.createElement('a');
                 link.href = "#"; // Prevent default navigation
                 link.textContent = video.name;
-                link.dataset.filename = video.name; // Store filename
-                link.dataset.dirtype = video.type;   // Store directory type
+                link.dataset.videoId = video._id; // Store the unique database ID
 
                 link.addEventListener('click', (e) => {
-                    e.preventDefault(); // Stop the link from navigating
-                    const filename = e.target.dataset.filename;
-                    const dirType = e.target.dataset.dirtype;
-                    const videoSrc = `/video?name=${encodeURIComponent(filename)}&dir=${encodeURIComponent(dirType)}`;
+                    e.preventDefault();
+                    const videoId = e.target.dataset.videoId;
+                    const videoSrc = `/video?id=${encodeURIComponent(videoId)}`;
                     videoPlayer.src = videoSrc;
-                    videoPlayer.load(); // Load the new video source
-                    videoPlayer.play(); // Start playback
+                    videoPlayer.load();
+                    videoPlayer.play();
 
-                    showPage('viewing-page'); // Switch to viewing page
+                    showPage('viewing-page');
                 });
 
                 listItem.appendChild(link);
@@ -55,22 +52,21 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         } catch (error) {
             console.error("Error fetching videos:", error);
-            videoList.innerHTML = '<li>Failed to load videos. Please try again.</li>';
+            videoList.innerHTML = '<li>Failed to load videos. Please check your server and database connection.</li>';
         }
     };
 
-    // Initial load of videos when the page loads
     fetchAndDisplayVideos();
 
     // --- Viewing Page Logic ---
     fullscreenButton.addEventListener('click', () => {
         if (videoPlayer.requestFullscreen) {
             videoPlayer.requestFullscreen();
-        } else if (videoPlayer.mozRequestFullScreen) { /* Firefox */
+        } else if (videoPlayer.mozRequestFullScreen) {
             videoPlayer.mozRequestFullScreen();
-        } else if (videoPlayer.webkitRequestFullscreen) { /* Chrome, Safari and Opera */
+        } else if (videoPlayer.webkitRequestFullscreen) {
             videoPlayer.webkitRequestFullscreen();
-        } else if (videoPlayer.msRequestFullscreen) { /* IE/Edge */
+        } else if (videoPlayer.msRequestFullscreen) {
             videoPlayer.msRequestFullscreen();
         }
     });
@@ -78,12 +74,10 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- Sidebar Navigation ---
     showNavigationButton.addEventListener('click', () => {
         showPage('navigation-page');
-        // Optionally pause video if switching away from viewing page
         if (!videoPlayer.paused) {
             videoPlayer.pause();
         }
     });
 
-    // Initial page display
     showPage('navigation-page');
 });
