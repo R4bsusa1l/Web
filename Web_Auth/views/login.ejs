@@ -1,0 +1,38 @@
+<%- include("partials/header") %>
+
+<section class="card">
+  <h1>Sign in</h1>
+  <p class="muted">Choose local login or social login.</p>
+
+  <% if (error) { %>
+    <p class="alert error"><%= error %></p>
+  <% } %>
+  <% if (success) { %>
+    <p class="alert success"><%= success %></p>
+  <% } %>
+
+  <form method="post" action="/login" class="form">
+    <label for="email">Email</label>
+    <input id="email" name="email" type="email" required />
+
+    <label for="password">Password</label>
+    <input id="password" name="password" type="password" required />
+
+    <button type="submit">Login</button>
+  </form>
+
+  <div class="divider">or</div>
+
+  <% if (googleEnabled) { %>
+    <a href="/auth/google" class="button-secondary">Continue with Google</a>
+  <% } else { %>
+    <p class="muted small">Google social login is disabled. Add OAuth credentials in `.env`.</p>
+  <% } %>
+
+  <p class="bottom-link">
+    No account yet?
+    <a href="/register">Create one</a>
+  </p>
+</section>
+
+<%- include("partials/footer") %>

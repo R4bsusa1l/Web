@@ -1,0 +1,30 @@
+<%- include("partials/header") %>
+
+<section class="card">
+  <h1>Create account</h1>
+  <p class="muted">Register with email/password and your nickname.</p>
+
+  <% if (error) { %>
+    <p class="alert error"><%= error %></p>
+  <% } %>
+
+  <form method="post" action="/register" class="form">
+    <label for="email">Email</label>
+    <input id="email" name="email" type="email" value="<%= email %>" required />
+
+    <label for="password">Password (min. 10 chars)</label>
+    <input id="password" name="password" type="password" minlength="10" required />
+
+    <label for="nickname">Nickname</label>
+    <input id="nickname" name="nickname" type="text" maxlength="40" value="<%= nickname %>" required />
+
+    <button type="submit">Register</button>
+  </form>
+
+  <p class="bottom-link">
+    Already have an account?
+    <a href="/login">Sign in</a>
+  </p>
+</section>
+
+<%- include("partials/footer") %>

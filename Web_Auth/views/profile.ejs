@@ -1,0 +1,39 @@
+<%- include("partials/header") %>
+
+<section class="card">
+  <h1>Your profile</h1>
+
+  <% if (error) { %>
+    <p class="alert error"><%= error %></p>
+  <% } %>
+  <% if (success) { %>
+    <p class="alert success"><%= success %></p>
+  <% } %>
+
+  <dl class="profile-data">
+    <dt>Email</dt>
+    <dd><%= user.email %></dd>
+
+    <dt>Provider</dt>
+    <dd><%= user.provider %></dd>
+  </dl>
+
+  <form method="post" action="/profile/nickname" class="form">
+    <label for="nickname">Nickname</label>
+    <input
+      id="nickname"
+      name="nickname"
+      type="text"
+      value="<%= user.nickname %>"
+      maxlength="40"
+      required
+    />
+    <button type="submit">Update nickname</button>
+  </form>
+
+  <form method="post" action="/logout">
+    <button type="submit" class="button-secondary">Logout</button>
+  </form>
+</section>
+
+<%- include("partials/footer") %>
