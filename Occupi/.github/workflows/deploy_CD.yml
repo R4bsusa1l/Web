@@ -1,0 +1,60 @@
+name: CD - Continuous Deployment
+
+on:
+  push:
+    branches:
+      - main
+      - master
+      - dev
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: deploy-production
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on:
+      - self-hosted
+      - linux
+      - x64
+      - occupi-prod
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+          cache-dependency-path: frontend/package-lock.json
+
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "21"
+
+      - name: Build frontend for Spring static resources
+        working-directory: frontend
+        run: |
+          npm ci
+          npm run build:spring
+
+      - name: Build bootJar
+        run: ./gradlew bootJar --no-daemon
+
+      - name: Deploy on server
+        run: |
+          chmod +x deploy/deploy-on-runner.sh
+          ./deploy/deploy-on-runner.sh
+
+      - name: Run health check
+        run: |
+          chmod +x deploy/health-check.sh
+          ./deploy/health-check.sh http://localhost

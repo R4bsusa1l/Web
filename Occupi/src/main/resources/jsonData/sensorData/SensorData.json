@@ -1,0 +1,2994 @@
+[
+  {
+    "roomID": "ZL O3.01",
+    "peopleInRoom": 30
+  },
+  {
+    "roomID": "ZL O3.06",
+    "peopleInRoom": 10
+  },
+  {
+    "roomID": "ZL O5.01",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "ZL 02.10",
+    "peopleInRoom": 3
+  },
+  {
+    "roomID": "ZL 3. OG.20",
+    "peopleInRoom": 12
+  },
+  {
+    "roomID": "ZL 5. OG.21",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "ZL 3. OG.22",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "ZL 5. OG.23",
+    "peopleInRoom": 38
+  },
+  {
+    "roomID": "ZL 5. OG.24",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "ZL 3. OG.30",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "ZL 5. OG.31",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "ZL 3. OG.32",
+    "peopleInRoom": 14
+  },
+  {
+    "roomID": "ZL 5. OG.33",
+    "peopleInRoom": 94
+  },
+  {
+    "roomID": "ZL 5. OG.34",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "ZL 2. OG.35",
+    "peopleInRoom": 35
+  },
+  {
+    "roomID": "ZL 5. OG.36",
+    "peopleInRoom": 15
+  },
+  {
+    "roomID": "ZL 3. OG.37",
+    "peopleInRoom": 10
+  },
+  {
+    "roomID": "ZL 3. OG.38",
+    "peopleInRoom": 10
+  },
+  {
+    "roomID": "ZL 5. OG.39",
+    "peopleInRoom": 10
+  },
+  {
+    "roomID": "ZL 3. OG.40",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "ZL 2. OG.41",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "ZL 5. OG.42",
+    "peopleInRoom": 10
+  },
+  {
+    "roomID": "ZL 5. OG.43",
+    "peopleInRoom": 15
+  },
+  {
+    "roomID": "ZL 5. OG.44",
+    "peopleInRoom": 28
+  },
+  {
+    "roomID": "ZL 2. OG.45",
+    "peopleInRoom": 19
+  },
+  {
+    "roomID": "ZT 1.01",
+    "peopleInRoom": 45
+  },
+  {
+    "roomID": "ZT 2.15",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "ZT 3.08",
+    "peopleInRoom": 8
+  },
+  {
+    "roomID": "ZT 4.20",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "ZT 1.08",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "ZT 2.22",
+    "peopleInRoom": 28
+  },
+  {
+    "roomID": "ZT 3.15",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "ZT 4.05",
+    "peopleInRoom": 6
+  },
+  {
+    "roomID": "ZT 5.12",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "ZT 5.20",
+    "peopleInRoom": 12
+  },
+  {
+    "roomID": "ZT 5. OG.20",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "ZT 4. OG.21",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "ZT 2. OG.22",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "ZT 4. OG.23",
+    "peopleInRoom": 6
+  },
+  {
+    "roomID": "ZT 5. OG.24",
+    "peopleInRoom": 15
+  },
+  {
+    "roomID": "ZT 1. OG.30",
+    "peopleInRoom": 12
+  },
+  {
+    "roomID": "ZT 3. OG.31",
+    "peopleInRoom": 10
+  },
+  {
+    "roomID": "ZT 3. OG.32",
+    "peopleInRoom": 37
+  },
+  {
+    "roomID": "ZT 5. OG.33",
+    "peopleInRoom": 12
+  },
+  {
+    "roomID": "ZT 4. OG.34",
+    "peopleInRoom": 14
+  },
+  {
+    "roomID": "ZT 4. OG.35",
+    "peopleInRoom": 16
+  },
+  {
+    "roomID": "ZT 2. OG.36",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "ZT 3. OG.37",
+    "peopleInRoom": 78
+  },
+  {
+    "roomID": "ZT 1. OG.38",
+    "peopleInRoom": 7
+  },
+  {
+    "roomID": "ZT 3. OG.39",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "ZT 4. OG.40",
+    "peopleInRoom": 18
+  },
+  {
+    "roomID": "ZT 4. OG.41",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "ZT 1. OG.42",
+    "peopleInRoom": 15
+  },
+  {
+    "roomID": "ZT 5. OG.43",
+    "peopleInRoom": 85
+  },
+  {
+    "roomID": "ZT 5. OG.44",
+    "peopleInRoom": 21
+  },
+  {
+    "roomID": "ZT 4. OG.45",
+    "peopleInRoom": 51
+  },
+  {
+    "roomID": "ZF EG.01",
+    "peopleInRoom": 15
+  },
+  {
+    "roomID": "ZF 1.12",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "ZF 2.03",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "ZF 2.08",
+    "peopleInRoom": 8
+  },
+  {
+    "roomID": "ZF EG.05",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "ZF 1.15",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "ZF 2. OG.20",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "ZF 2. OG.21",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "ZF EG.22",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "ZF 2. OG.23",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "ZF EG.24",
+    "peopleInRoom": 32
+  },
+  {
+    "roomID": "ZF 1. OG.30",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "ZF EG.31",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "ZF 2. OG.32",
+    "peopleInRoom": 37
+  },
+  {
+    "roomID": "ZF EG.33",
+    "peopleInRoom": 37
+  },
+  {
+    "roomID": "ZF 1. OG.34",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "ZF 1. OG.35",
+    "peopleInRoom": 4
+  },
+  {
+    "roomID": "ZF 1. OG.36",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "ZF EG.37",
+    "peopleInRoom": 18
+  },
+  {
+    "roomID": "ZF 2. OG.38",
+    "peopleInRoom": 16
+  },
+  {
+    "roomID": "ZF 2. OG.39",
+    "peopleInRoom": 11
+  },
+  {
+    "roomID": "ZF 2. OG.40",
+    "peopleInRoom": 1
+  },
+  {
+    "roomID": "ZF 2. OG.41",
+    "peopleInRoom": 22
+  },
+  {
+    "roomID": "ZF 2. OG.42",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "ZF 2. OG.43",
+    "peopleInRoom": 4
+  },
+  {
+    "roomID": "ZF EG.44",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "ZF 2. OG.45",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TB EG.01",
+    "peopleInRoom": 42
+  },
+  {
+    "roomID": "TB 1.05",
+    "peopleInRoom": 8
+  },
+  {
+    "roomID": "TB 2.03",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TB 2. OG.20",
+    "peopleInRoom": 37
+  },
+  {
+    "roomID": "TB 1. OG.21",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TB 2. OG.22",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TB 2. OG.23",
+    "peopleInRoom": 23
+  },
+  {
+    "roomID": "TB EG.24",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TB EG.30",
+    "peopleInRoom": 14
+  },
+  {
+    "roomID": "TB EG.31",
+    "peopleInRoom": 20
+  },
+  {
+    "roomID": "TB 1. OG.32",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TB 2. OG.33",
+    "peopleInRoom": 35
+  },
+  {
+    "roomID": "TB 2. OG.34",
+    "peopleInRoom": 21
+  },
+  {
+    "roomID": "TB 2. OG.35",
+    "peopleInRoom": 2
+  },
+  {
+    "roomID": "TB 2. OG.36",
+    "peopleInRoom": 10
+  },
+  {
+    "roomID": "TB EG.37",
+    "peopleInRoom": 3
+  },
+  {
+    "roomID": "TB 2. OG.38",
+    "peopleInRoom": 13
+  },
+  {
+    "roomID": "TB 1. OG.39",
+    "peopleInRoom": 12
+  },
+  {
+    "roomID": "TB 2. OG.40",
+    "peopleInRoom": 15
+  },
+  {
+    "roomID": "TB 2. OG.41",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TB 2. OG.42",
+    "peopleInRoom": 5
+  },
+  {
+    "roomID": "TB 2. OG.43",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TB EG.44",
+    "peopleInRoom": 7
+  },
+  {
+    "roomID": "TB 2. OG.45",
+    "peopleInRoom": 16
+  },
+  {
+    "roomID": "TC EG.12",
+    "peopleInRoom": 18
+  },
+  {
+    "roomID": "TC 1.08",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TC 2.15",
+    "peopleInRoom": 12
+  },
+  {
+    "roomID": "TC 3. OG.20",
+    "peopleInRoom": 17
+  },
+  {
+    "roomID": "TC EG.21",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TC 1. OG.22",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TC 1. OG.23",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TC 3. OG.24",
+    "peopleInRoom": 15
+  },
+  {
+    "roomID": "TC 1. OG.30",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TC 1. OG.31",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TC 3. OG.32",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TC EG.33",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TC 2. OG.34",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TC 1. OG.35",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TC EG.36",
+    "peopleInRoom": 24
+  },
+  {
+    "roomID": "TC 2. OG.37",
+    "peopleInRoom": 5
+  },
+  {
+    "roomID": "TC EG.38",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TC 1. OG.39",
+    "peopleInRoom": 16
+  },
+  {
+    "roomID": "TC 3. OG.40",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TC 3. OG.41",
+    "peopleInRoom": 32
+  },
+  {
+    "roomID": "TC 1. OG.42",
+    "peopleInRoom": 24
+  },
+  {
+    "roomID": "TC 3. OG.43",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TC EG.44",
+    "peopleInRoom": 52
+  },
+  {
+    "roomID": "TC 1. OG.45",
+    "peopleInRoom": 51
+  },
+  {
+    "roomID": "TN EG.01",
+    "peopleInRoom": 120
+  },
+  {
+    "roomID": "TN 1.02",
+    "peopleInRoom": 25
+  },
+  {
+    "roomID": "TN 1. OG.20",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TN EG.21",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TN EG.22",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TN EG.23",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TN 1. OG.24",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TN EG.30",
+    "peopleInRoom": 32
+  },
+  {
+    "roomID": "TN EG.31",
+    "peopleInRoom": 52
+  },
+  {
+    "roomID": "TN EG.32",
+    "peopleInRoom": 16
+  },
+  {
+    "roomID": "TN 1. OG.33",
+    "peopleInRoom": 39
+  },
+  {
+    "roomID": "TN 1. OG.34",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TN 1. OG.35",
+    "peopleInRoom": 40
+  },
+  {
+    "roomID": "TN EG.36",
+    "peopleInRoom": 24
+  },
+  {
+    "roomID": "TN 1. OG.37",
+    "peopleInRoom": 9
+  },
+  {
+    "roomID": "TN EG.38",
+    "peopleInRoom": 7
+  },
+  {
+    "roomID": "TN 1. OG.39",
+    "peopleInRoom": 13
+  },
+  {
+    "roomID": "TN 1. OG.40",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TN 1. OG.41",
+    "peopleInRoom": 45
+  },
+  {
+    "roomID": "TN EG.42",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TN EG.43",
+    "peopleInRoom": 35
+  },
+  {
+    "roomID": "TN 1. OG.44",
+    "peopleInRoom": 30
+  },
+  {
+    "roomID": "TO EG.08",
+    "peopleInRoom": 22
+  },
+  {
+    "roomID": "TO 1.15",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TO 2. OG.20",
+    "peopleInRoom": 21
+  },
+  {
+    "roomID": "TO 1. OG.21",
+    "peopleInRoom": 3
+  },
+  {
+    "roomID": "TO 1. OG.22",
+    "peopleInRoom": 3
+  },
+  {
+    "roomID": "TO 1. OG.23",
+    "peopleInRoom": 17
+  },
+  {
+    "roomID": "TO 2. OG.24",
+    "peopleInRoom": 9
+  },
+  {
+    "roomID": "TO 2. OG.30",
+    "peopleInRoom": 31
+  },
+  {
+    "roomID": "TO EG.31",
+    "peopleInRoom": 24
+  },
+  {
+    "roomID": "TO 1. OG.32",
+    "peopleInRoom": 15
+  },
+  {
+    "roomID": "TO 1. OG.33",
+    "peopleInRoom": 4
+  },
+  {
+    "roomID": "TO 2. OG.34",
+    "peopleInRoom": 35
+  },
+  {
+    "roomID": "TO EG.35",
+    "peopleInRoom": 11
+  },
+  {
+    "roomID": "TO 1. OG.36",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TO EG.37",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TO 2. OG.38",
+    "peopleInRoom": 17
+  },
+  {
+    "roomID": "TO 1. OG.39",
+    "peopleInRoom": 20
+  },
+  {
+    "roomID": "TO EG.40",
+    "peopleInRoom": 20
+  },
+  {
+    "roomID": "TO 1. OG.41",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TO 1. OG.42",
+    "peopleInRoom": 18
+  },
+  {
+    "roomID": "TO 1. OG.43",
+    "peopleInRoom": 20
+  },
+  {
+    "roomID": "TO 1. OG.44",
+    "peopleInRoom": 14
+  },
+  {
+    "roomID": "TS EG.03",
+    "peopleInRoom": 5
+  },
+  {
+    "roomID": "TS 1.09",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TS 1. OG.20",
+    "peopleInRoom": 29
+  },
+  {
+    "roomID": "TS EG.21",
+    "peopleInRoom": 20
+  },
+  {
+    "roomID": "TS EG.22",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TS EG.23",
+    "peopleInRoom": 9
+  },
+  {
+    "roomID": "TS EG.24",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TS EG.30",
+    "peopleInRoom": 91
+  },
+  {
+    "roomID": "TS EG.31",
+    "peopleInRoom": 19
+  },
+  {
+    "roomID": "TS EG.32",
+    "peopleInRoom": 5
+  },
+  {
+    "roomID": "TS 1. OG.33",
+    "peopleInRoom": 7
+  },
+  {
+    "roomID": "TS 1. OG.34",
+    "peopleInRoom": 8
+  },
+  {
+    "roomID": "TS 1. OG.35",
+    "peopleInRoom": 6
+  },
+  {
+    "roomID": "TS 1. OG.36",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TS EG.37",
+    "peopleInRoom": 11
+  },
+  {
+    "roomID": "TS 1. OG.38",
+    "peopleInRoom": 80
+  },
+  {
+    "roomID": "TS EG.39",
+    "peopleInRoom": 10
+  },
+  {
+    "roomID": "TS 1. OG.40",
+    "peopleInRoom": 9
+  },
+  {
+    "roomID": "TS 1. OG.41",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TS 1. OG.42",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TS 1. OG.43",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TS 1. OG.44",
+    "peopleInRoom": 69
+  },
+  {
+    "roomID": "TD EG.05",
+    "peopleInRoom": 12
+  },
+  {
+    "roomID": "TD 1.11",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TD 2. OG.20",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TD 1. OG.21",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TD EG.22",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TD 2. OG.23",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TD EG.24",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TD 1. OG.30",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TD 1. OG.31",
+    "peopleInRoom": 23
+  },
+  {
+    "roomID": "TD 1. OG.32",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TD 2. OG.33",
+    "peopleInRoom": 50
+  },
+  {
+    "roomID": "TD 1. OG.34",
+    "peopleInRoom": 31
+  },
+  {
+    "roomID": "TD 2. OG.35",
+    "peopleInRoom": 1
+  },
+  {
+    "roomID": "TD 2. OG.36",
+    "peopleInRoom": 18
+  },
+  {
+    "roomID": "TD 1. OG.37",
+    "peopleInRoom": 7
+  },
+  {
+    "roomID": "TD 1. OG.38",
+    "peopleInRoom": 5
+  },
+  {
+    "roomID": "TD 2. OG.39",
+    "peopleInRoom": 11
+  },
+  {
+    "roomID": "TD EG.40",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TD 1. OG.41",
+    "peopleInRoom": 16
+  },
+  {
+    "roomID": "TD 2. OG.42",
+    "peopleInRoom": 8
+  },
+  {
+    "roomID": "TD EG.43",
+    "peopleInRoom": 8
+  },
+  {
+    "roomID": "TD 1. OG.44",
+    "peopleInRoom": 13
+  },
+  {
+    "roomID": "TE EG.14",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TE 2.07",
+    "peopleInRoom": 16
+  },
+  {
+    "roomID": "TE 1. OG.20",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TE 1. OG.21",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TE 3. OG.22",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TE EG.23",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TE EG.24",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TE 1. OG.30",
+    "peopleInRoom": 60
+  },
+  {
+    "roomID": "TE 3. OG.31",
+    "peopleInRoom": 28
+  },
+  {
+    "roomID": "TE 2. OG.32",
+    "peopleInRoom": 14
+  },
+  {
+    "roomID": "TE 3. OG.33",
+    "peopleInRoom": 80
+  },
+  {
+    "roomID": "TE 2. OG.34",
+    "peopleInRoom": 21
+  },
+  {
+    "roomID": "TE 1. OG.35",
+    "peopleInRoom": 5
+  },
+  {
+    "roomID": "TE EG.36",
+    "peopleInRoom": 84
+  },
+  {
+    "roomID": "TE 2. OG.37",
+    "peopleInRoom": 11
+  },
+  {
+    "roomID": "TE 3. OG.38",
+    "peopleInRoom": 22
+  },
+  {
+    "roomID": "TE EG.39",
+    "peopleInRoom": 31
+  },
+  {
+    "roomID": "TE EG.40",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TE 2. OG.41",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TE 1. OG.42",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TE EG.43",
+    "peopleInRoom": 28
+  },
+  {
+    "roomID": "TE 2. OG.44",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TF EG.02",
+    "peopleInRoom": 6
+  },
+  {
+    "roomID": "TF EG.20",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TF EG.21",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TF EG.22",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TF EG.23",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TF 1. OG.24",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TF 1. OG.30",
+    "peopleInRoom": 35
+  },
+  {
+    "roomID": "TF EG.31",
+    "peopleInRoom": 63
+  },
+  {
+    "roomID": "TF EG.32",
+    "peopleInRoom": 6
+  },
+  {
+    "roomID": "TF EG.33",
+    "peopleInRoom": 24
+  },
+  {
+    "roomID": "TF 1. OG.34",
+    "peopleInRoom": 14
+  },
+  {
+    "roomID": "TF 1. OG.35",
+    "peopleInRoom": 30
+  },
+  {
+    "roomID": "TF EG.36",
+    "peopleInRoom": 6
+  },
+  {
+    "roomID": "TF 1. OG.37",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TF 1. OG.38",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TF 1. OG.39",
+    "peopleInRoom": 35
+  },
+  {
+    "roomID": "TF EG.40",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TF EG.41",
+    "peopleInRoom": 37
+  },
+  {
+    "roomID": "TF 1. OG.42",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TF 1. OG.43",
+    "peopleInRoom": 26
+  },
+  {
+    "roomID": "TF 1. OG.44",
+    "peopleInRoom": 7
+  },
+  {
+    "roomID": "TG EG.07",
+    "peopleInRoom": 18
+  },
+  {
+    "roomID": "TG 1.04",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TG 2. OG.20",
+    "peopleInRoom": 2
+  },
+  {
+    "roomID": "TG 2. OG.21",
+    "peopleInRoom": 10
+  },
+  {
+    "roomID": "TG EG.22",
+    "peopleInRoom": 23
+  },
+  {
+    "roomID": "TG 2. OG.23",
+    "peopleInRoom": 29
+  },
+  {
+    "roomID": "TG EG.24",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TG 2. OG.30",
+    "peopleInRoom": 23
+  },
+  {
+    "roomID": "TG 1. OG.31",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TG 2. OG.32",
+    "peopleInRoom": 50
+  },
+  {
+    "roomID": "TG EG.33",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TG 1. OG.34",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TG 1. OG.35",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TG EG.36",
+    "peopleInRoom": 4
+  },
+  {
+    "roomID": "TG EG.37",
+    "peopleInRoom": 2
+  },
+  {
+    "roomID": "TG 1. OG.38",
+    "peopleInRoom": 10
+  },
+  {
+    "roomID": "TG 1. OG.39",
+    "peopleInRoom": 25
+  },
+  {
+    "roomID": "TG EG.40",
+    "peopleInRoom": 24
+  },
+  {
+    "roomID": "TG EG.41",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TG 1. OG.42",
+    "peopleInRoom": 12
+  },
+  {
+    "roomID": "TG 1. OG.43",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TG 2. OG.44",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TH EG.10",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TH 1.12",
+    "peopleInRoom": 4
+  },
+  {
+    "roomID": "TH 2.20",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TH 2. OG.20",
+    "peopleInRoom": 42
+  },
+  {
+    "roomID": "TH 1. OG.21",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TH EG.22",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TH 1. OG.23",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TH EG.24",
+    "peopleInRoom": 13
+  },
+  {
+    "roomID": "TH EG.30",
+    "peopleInRoom": 24
+  },
+  {
+    "roomID": "TH EG.31",
+    "peopleInRoom": 60
+  },
+  {
+    "roomID": "TH EG.32",
+    "peopleInRoom": 47
+  },
+  {
+    "roomID": "TH 1. OG.33",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TH 2. OG.34",
+    "peopleInRoom": 7
+  },
+  {
+    "roomID": "TH 1. OG.35",
+    "peopleInRoom": 30
+  },
+  {
+    "roomID": "TH 1. OG.36",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TH 2. OG.37",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TH 2. OG.38",
+    "peopleInRoom": 9
+  },
+  {
+    "roomID": "TH 1. OG.39",
+    "peopleInRoom": 71
+  },
+  {
+    "roomID": "TH 2. OG.40",
+    "peopleInRoom": 22
+  },
+  {
+    "roomID": "TH EG.41",
+    "peopleInRoom": 14
+  },
+  {
+    "roomID": "TH 2. OG.42",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TH 2. OG.43",
+    "peopleInRoom": 25
+  },
+  {
+    "roomID": "TH 2. OG.44",
+    "peopleInRoom": 15
+  },
+  {
+    "roomID": "TL EG.05",
+    "peopleInRoom": 14
+  },
+  {
+    "roomID": "TL 1.08",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TL 2. OG.20",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TL 2. OG.21",
+    "peopleInRoom": 23
+  },
+  {
+    "roomID": "TL 2. OG.22",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TL 2. OG.23",
+    "peopleInRoom": 12
+  },
+  {
+    "roomID": "TL 2. OG.24",
+    "peopleInRoom": 11
+  },
+  {
+    "roomID": "TL 2. OG.30",
+    "peopleInRoom": 100
+  },
+  {
+    "roomID": "TL 1. OG.31",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TL EG.32",
+    "peopleInRoom": 72
+  },
+  {
+    "roomID": "TL EG.33",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TL 1. OG.34",
+    "peopleInRoom": 49
+  },
+  {
+    "roomID": "TL 1. OG.35",
+    "peopleInRoom": 18
+  },
+  {
+    "roomID": "TL 1. OG.36",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TL 2. OG.37",
+    "peopleInRoom": 60
+  },
+  {
+    "roomID": "TL 2. OG.38",
+    "peopleInRoom": 6
+  },
+  {
+    "roomID": "TL 1. OG.39",
+    "peopleInRoom": 16
+  },
+  {
+    "roomID": "TL EG.40",
+    "peopleInRoom": 31
+  },
+  {
+    "roomID": "TL EG.41",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TL 2. OG.42",
+    "peopleInRoom": 18
+  },
+  {
+    "roomID": "TL 1. OG.43",
+    "peopleInRoom": 7
+  },
+  {
+    "roomID": "TL 2. OG.44",
+    "peopleInRoom": 5
+  },
+  {
+    "roomID": "TM EG.03",
+    "peopleInRoom": 10
+  },
+  {
+    "roomID": "TM 1.02",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TM 1. OG.20",
+    "peopleInRoom": 9
+  },
+  {
+    "roomID": "TM 1. OG.21",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TM 1. OG.22",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TM EG.23",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TM 1. OG.24",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TM 1. OG.30",
+    "peopleInRoom": 30
+  },
+  {
+    "roomID": "TM EG.31",
+    "peopleInRoom": 100
+  },
+  {
+    "roomID": "TM 1. OG.32",
+    "peopleInRoom": 32
+  },
+  {
+    "roomID": "TM 1. OG.33",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TM EG.34",
+    "peopleInRoom": 25
+  },
+  {
+    "roomID": "TM EG.35",
+    "peopleInRoom": 14
+  },
+  {
+    "roomID": "TM EG.36",
+    "peopleInRoom": 18
+  },
+  {
+    "roomID": "TM 1. OG.37",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TM EG.38",
+    "peopleInRoom": 63
+  },
+  {
+    "roomID": "TM 1. OG.39",
+    "peopleInRoom": 10
+  },
+  {
+    "roomID": "TM 1. OG.40",
+    "peopleInRoom": 50
+  },
+  {
+    "roomID": "TM EG.41",
+    "peopleInRoom": 48
+  },
+  {
+    "roomID": "TM 1. OG.42",
+    "peopleInRoom": 40
+  },
+  {
+    "roomID": "TM EG.43",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TM 1. OG.44",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TP EG.06",
+    "peopleInRoom": 20
+  },
+  {
+    "roomID": "TP 1.11",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TP 2. OG.20",
+    "peopleInRoom": 24
+  },
+  {
+    "roomID": "TP 2. OG.21",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TP EG.22",
+    "peopleInRoom": 2
+  },
+  {
+    "roomID": "TP 2. OG.23",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TP EG.24",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TP EG.30",
+    "peopleInRoom": 66
+  },
+  {
+    "roomID": "TP 2. OG.31",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TP EG.32",
+    "peopleInRoom": 21
+  },
+  {
+    "roomID": "TP EG.33",
+    "peopleInRoom": 6
+  },
+  {
+    "roomID": "TP EG.34",
+    "peopleInRoom": 53
+  },
+  {
+    "roomID": "TP 1. OG.35",
+    "peopleInRoom": 5
+  },
+  {
+    "roomID": "TP EG.36",
+    "peopleInRoom": 18
+  },
+  {
+    "roomID": "TP 2. OG.37",
+    "peopleInRoom": 7
+  },
+  {
+    "roomID": "TP EG.38",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TP 1. OG.39",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TP 2. OG.40",
+    "peopleInRoom": 5
+  },
+  {
+    "roomID": "TP 1. OG.41",
+    "peopleInRoom": 12
+  },
+  {
+    "roomID": "TP 2. OG.42",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TP EG.43",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TP 1. OG.44",
+    "peopleInRoom": 36
+  },
+  {
+    "roomID": "TV EG.04",
+    "peopleInRoom": 12
+  },
+  {
+    "roomID": "TV 1.07",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TV 1. OG.20",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TV EG.21",
+    "peopleInRoom": 32
+  },
+  {
+    "roomID": "TV EG.22",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TV 1. OG.23",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TV 1. OG.24",
+    "peopleInRoom": 6
+  },
+  {
+    "roomID": "TV 1. OG.30",
+    "peopleInRoom": 6
+  },
+  {
+    "roomID": "TV EG.31",
+    "peopleInRoom": 23
+  },
+  {
+    "roomID": "TV EG.32",
+    "peopleInRoom": 36
+  },
+  {
+    "roomID": "TV 1. OG.33",
+    "peopleInRoom": 19
+  },
+  {
+    "roomID": "TV EG.34",
+    "peopleInRoom": 11
+  },
+  {
+    "roomID": "TV EG.35",
+    "peopleInRoom": 15
+  },
+  {
+    "roomID": "TV EG.36",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TV 1. OG.37",
+    "peopleInRoom": 18
+  },
+  {
+    "roomID": "TV EG.38",
+    "peopleInRoom": 32
+  },
+  {
+    "roomID": "TV 1. OG.39",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TV EG.40",
+    "peopleInRoom": 15
+  },
+  {
+    "roomID": "TV 1. OG.41",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TV 1. OG.42",
+    "peopleInRoom": 12
+  },
+  {
+    "roomID": "TV EG.43",
+    "peopleInRoom": 6
+  },
+  {
+    "roomID": "TV EG.44",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TW EG.02",
+    "peopleInRoom": 8
+  },
+  {
+    "roomID": "TW 1.05",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TW 1. OG.20",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TW 1. OG.21",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TW EG.22",
+    "peopleInRoom": 9
+  },
+  {
+    "roomID": "TW EG.23",
+    "peopleInRoom": 6
+  },
+  {
+    "roomID": "TW EG.24",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TW EG.30",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TW 1. OG.31",
+    "peopleInRoom": 16
+  },
+  {
+    "roomID": "TW EG.32",
+    "peopleInRoom": 19
+  },
+  {
+    "roomID": "TW 1. OG.33",
+    "peopleInRoom": 20
+  },
+  {
+    "roomID": "TW EG.34",
+    "peopleInRoom": 14
+  },
+  {
+    "roomID": "TW 1. OG.35",
+    "peopleInRoom": 28
+  },
+  {
+    "roomID": "TW EG.36",
+    "peopleInRoom": 56
+  },
+  {
+    "roomID": "TW 1. OG.37",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TW 1. OG.38",
+    "peopleInRoom": 10
+  },
+  {
+    "roomID": "TW EG.39",
+    "peopleInRoom": 18
+  },
+  {
+    "roomID": "TW EG.40",
+    "peopleInRoom": 5
+  },
+  {
+    "roomID": "TW 1. OG.41",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TW 1. OG.42",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TW EG.43",
+    "peopleInRoom": 35
+  },
+  {
+    "roomID": "TW EG.44",
+    "peopleInRoom": 12
+  },
+  {
+    "roomID": "TY EG.01",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TY EG.20",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TY EG.21",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TY EG.22",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TY EG.23",
+    "peopleInRoom": 43
+  },
+  {
+    "roomID": "TY EG.24",
+    "peopleInRoom": 4
+  },
+  {
+    "roomID": "TY EG.30",
+    "peopleInRoom": 19
+  },
+  {
+    "roomID": "TY EG.31",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TY EG.32",
+    "peopleInRoom": 7
+  },
+  {
+    "roomID": "TY EG.33",
+    "peopleInRoom": 69
+  },
+  {
+    "roomID": "TY EG.34",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TY EG.35",
+    "peopleInRoom": 6
+  },
+  {
+    "roomID": "TY EG.36",
+    "peopleInRoom": 28
+  },
+  {
+    "roomID": "TY EG.37",
+    "peopleInRoom": 6
+  },
+  {
+    "roomID": "TY EG.38",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TY EG.39",
+    "peopleInRoom": 13
+  },
+  {
+    "roomID": "TY EG.40",
+    "peopleInRoom": 12
+  },
+  {
+    "roomID": "TY EG.41",
+    "peopleInRoom": 17
+  },
+  {
+    "roomID": "TY EG.42",
+    "peopleInRoom": 5
+  },
+  {
+    "roomID": "TY EG.43",
+    "peopleInRoom": 40
+  },
+  {
+    "roomID": "TY EG.44",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TU EG.09",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TU 1.14",
+    "peopleInRoom": 10
+  },
+  {
+    "roomID": "TU EG.20",
+    "peopleInRoom": 31
+  },
+  {
+    "roomID": "TU EG.21",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TU EG.22",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TU EG.23",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TU 2. OG.24",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TU EG.30",
+    "peopleInRoom": 75
+  },
+  {
+    "roomID": "TU 2. OG.31",
+    "peopleInRoom": 54
+  },
+  {
+    "roomID": "TU 2. OG.32",
+    "peopleInRoom": 6
+  },
+  {
+    "roomID": "TU EG.33",
+    "peopleInRoom": 28
+  },
+  {
+    "roomID": "TU EG.34",
+    "peopleInRoom": 36
+  },
+  {
+    "roomID": "TU 2. OG.35",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "TU 1. OG.36",
+    "peopleInRoom": 35
+  },
+  {
+    "roomID": "TU EG.37",
+    "peopleInRoom": 25
+  },
+  {
+    "roomID": "TU EG.38",
+    "peopleInRoom": 24
+  },
+  {
+    "roomID": "TU EG.39",
+    "peopleInRoom": 44
+  },
+  {
+    "roomID": "TU 2. OG.40",
+    "peopleInRoom": 61
+  },
+  {
+    "roomID": "TU 2. OG.41",
+    "peopleInRoom": 8
+  },
+  {
+    "roomID": "TU 2. OG.42",
+    "peopleInRoom": 15
+  },
+  {
+    "roomID": "TU 2. OG.43",
+    "peopleInRoom": 45
+  },
+  {
+    "roomID": "TU 1. OG.44",
+    "peopleInRoom": 28
+  },
+  {
+    "roomID": "CAI 1.03",
+    "peopleInRoom": 15
+  },
+  {
+    "roomID": "CAI 2.05",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "CAI 2. OG.20",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "CAI 2. OG.21",
+    "peopleInRoom": 35
+  },
+  {
+    "roomID": "CAI 2. OG.22",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "CAI 2. OG.23",
+    "peopleInRoom": 8
+  },
+  {
+    "roomID": "CAI 2. OG.24",
+    "peopleInRoom": 9
+  },
+  {
+    "roomID": "CAI 1. OG.30",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "CAI 2. OG.31",
+    "peopleInRoom": 24
+  },
+  {
+    "roomID": "CAI 1. OG.32",
+    "peopleInRoom": 23
+  },
+  {
+    "roomID": "CAI 1. OG.33",
+    "peopleInRoom": 1
+  },
+  {
+    "roomID": "CAI 2. OG.34",
+    "peopleInRoom": 9
+  },
+  {
+    "roomID": "CAI 2. OG.35",
+    "peopleInRoom": 7
+  },
+  {
+    "roomID": "CAI 1. OG.36",
+    "peopleInRoom": 21
+  },
+  {
+    "roomID": "CAI 1. OG.37",
+    "peopleInRoom": 2
+  },
+  {
+    "roomID": "CAI 2. OG.38",
+    "peopleInRoom": 1
+  },
+  {
+    "roomID": "CAI 2. OG.39",
+    "peopleInRoom": 4
+  },
+  {
+    "roomID": "CAI 2. OG.40",
+    "peopleInRoom": 17
+  },
+  {
+    "roomID": "CAI 2. OG.41",
+    "peopleInRoom": 17
+  },
+  {
+    "roomID": "CAI 2. OG.42",
+    "peopleInRoom": 60
+  },
+  {
+    "roomID": "CAI 1. OG.43",
+    "peopleInRoom": 52
+  },
+  {
+    "roomID": "CAI 2. OG.44",
+    "peopleInRoom": 73
+  },
+  {
+    "roomID": "ISC EG.07",
+    "peopleInRoom": 8
+  },
+  {
+    "roomID": "ISC 1.04",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "ISC 1. OG.20",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "ISC 1. OG.21",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "ISC EG.22",
+    "peopleInRoom": 5
+  },
+  {
+    "roomID": "ISC 1. OG.23",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "ISC EG.24",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "ISC EG.30",
+    "peopleInRoom": 36
+  },
+  {
+    "roomID": "ISC 1. OG.31",
+    "peopleInRoom": 20
+  },
+  {
+    "roomID": "ISC EG.32",
+    "peopleInRoom": 19
+  },
+  {
+    "roomID": "ISC EG.33",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "ISC 1. OG.34",
+    "peopleInRoom": 39
+  },
+  {
+    "roomID": "ISC 1. OG.35",
+    "peopleInRoom": 50
+  },
+  {
+    "roomID": "ISC 1. OG.36",
+    "peopleInRoom": 5
+  },
+  {
+    "roomID": "ISC EG.37",
+    "peopleInRoom": 21
+  },
+  {
+    "roomID": "ISC 1. OG.38",
+    "peopleInRoom": 56
+  },
+  {
+    "roomID": "ISC EG.39",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "ISC 1. OG.40",
+    "peopleInRoom": 11
+  },
+  {
+    "roomID": "ISC 1. OG.41",
+    "peopleInRoom": 24
+  },
+  {
+    "roomID": "ISC 1. OG.42",
+    "peopleInRoom": 24
+  },
+  {
+    "roomID": "ISC EG.43",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "ISC 1. OG.44",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "IMPE EG.05",
+    "peopleInRoom": 10
+  },
+  {
+    "roomID": "IMPE 1.08",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "IMPE EG.20",
+    "peopleInRoom": 9
+  },
+  {
+    "roomID": "IMPE 1. OG.21",
+    "peopleInRoom": 21
+  },
+  {
+    "roomID": "IMPE EG.22",
+    "peopleInRoom": 8
+  },
+  {
+    "roomID": "IMPE 1. OG.23",
+    "peopleInRoom": 24
+  },
+  {
+    "roomID": "IMPE 1. OG.24",
+    "peopleInRoom": 21
+  },
+  {
+    "roomID": "IMPE EG.30",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "IMPE EG.31",
+    "peopleInRoom": 1
+  },
+  {
+    "roomID": "IMPE EG.32",
+    "peopleInRoom": 15
+  },
+  {
+    "roomID": "IMPE EG.33",
+    "peopleInRoom": 54
+  },
+  {
+    "roomID": "IMPE 1. OG.34",
+    "peopleInRoom": 5
+  },
+  {
+    "roomID": "IMPE EG.35",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "IMPE 1. OG.36",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "IMPE 1. OG.37",
+    "peopleInRoom": 9
+  },
+  {
+    "roomID": "IMPE 1. OG.38",
+    "peopleInRoom": 24
+  },
+  {
+    "roomID": "IMPE EG.39",
+    "peopleInRoom": 54
+  },
+  {
+    "roomID": "IMPE 1. OG.40",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "IMPE 1. OG.41",
+    "peopleInRoom": 8
+  },
+  {
+    "roomID": "IMPE 1. OG.42",
+    "peopleInRoom": 28
+  },
+  {
+    "roomID": "IMPE EG.43",
+    "peopleInRoom": 2
+  },
+  {
+    "roomID": "IMPE EG.44",
+    "peopleInRoom": 6
+  },
+  {
+    "roomID": "ZAV EG.04",
+    "peopleInRoom": 18
+  },
+  {
+    "roomID": "ZAV 1.12",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "ZAV 1. OG.20",
+    "peopleInRoom": 4
+  },
+  {
+    "roomID": "ZAV 2. OG.21",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "ZAV 2. OG.22",
+    "peopleInRoom": 26
+  },
+  {
+    "roomID": "ZAV 1. OG.23",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "ZAV EG.24",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "ZAV 1. OG.30",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "ZAV EG.31",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "ZAV 1. OG.32",
+    "peopleInRoom": 80
+  },
+  {
+    "roomID": "ZAV 2. OG.33",
+    "peopleInRoom": 7
+  },
+  {
+    "roomID": "ZAV 1. OG.34",
+    "peopleInRoom": 52
+  },
+  {
+    "roomID": "ZAV 1. OG.35",
+    "peopleInRoom": 52
+  },
+  {
+    "roomID": "ZAV EG.36",
+    "peopleInRoom": 80
+  },
+  {
+    "roomID": "ZAV 1. OG.37",
+    "peopleInRoom": 7
+  },
+  {
+    "roomID": "ZAV 1. OG.38",
+    "peopleInRoom": 50
+  },
+  {
+    "roomID": "ZAV EG.39",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "ZAV EG.40",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "ZAV EG.41",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "ZAV 2. OG.42",
+    "peopleInRoom": 14
+  },
+  {
+    "roomID": "ZAV 2. OG.43",
+    "peopleInRoom": 8
+  },
+  {
+    "roomID": "ZAV EG.44",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "GO EG.08",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "GO 1.15",
+    "peopleInRoom": 20
+  },
+  {
+    "roomID": "GO 2.10",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "GO 1. OG.20",
+    "peopleInRoom": 19
+  },
+  {
+    "roomID": "GO EG.21",
+    "peopleInRoom": 30
+  },
+  {
+    "roomID": "GO 2. OG.22",
+    "peopleInRoom": 18
+  },
+  {
+    "roomID": "GO 1. OG.23",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "GO 2. OG.24",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "GO 1. OG.30",
+    "peopleInRoom": 51
+  },
+  {
+    "roomID": "GO 2. OG.31",
+    "peopleInRoom": 6
+  },
+  {
+    "roomID": "GO EG.32",
+    "peopleInRoom": 20
+  },
+  {
+    "roomID": "GO 1. OG.33",
+    "peopleInRoom": 67
+  },
+  {
+    "roomID": "GO 1. OG.34",
+    "peopleInRoom": 10
+  },
+  {
+    "roomID": "GO EG.35",
+    "peopleInRoom": 31
+  },
+  {
+    "roomID": "GO 1. OG.36",
+    "peopleInRoom": 31
+  },
+  {
+    "roomID": "GO 1. OG.37",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "GO 2. OG.38",
+    "peopleInRoom": 29
+  },
+  {
+    "roomID": "GO 1. OG.39",
+    "peopleInRoom": 27
+  },
+  {
+    "roomID": "GO 2. OG.40",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "GO EG.41",
+    "peopleInRoom": 22
+  },
+  {
+    "roomID": "GO EG.42",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "GO 1. OG.43",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "GO 1. OG.44",
+    "peopleInRoom": 10
+  },
+  {
+    "roomID": "GP EG.01",
+    "peopleInRoom": 8
+  },
+  {
+    "roomID": "GP EG.20",
+    "peopleInRoom": 14
+  },
+  {
+    "roomID": "GP EG.21",
+    "peopleInRoom": 24
+  },
+  {
+    "roomID": "GP EG.22",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "GP EG.23",
+    "peopleInRoom": 11
+  },
+  {
+    "roomID": "GP EG.24",
+    "peopleInRoom": 10
+  },
+  {
+    "roomID": "GP EG.30",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "GP EG.31",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "GP EG.32",
+    "peopleInRoom": 1
+  },
+  {
+    "roomID": "GP EG.33",
+    "peopleInRoom": 17
+  },
+  {
+    "roomID": "GP EG.34",
+    "peopleInRoom": 15
+  },
+  {
+    "roomID": "GP EG.35",
+    "peopleInRoom": 60
+  },
+  {
+    "roomID": "GP EG.36",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "GP EG.37",
+    "peopleInRoom": 20
+  },
+  {
+    "roomID": "GP EG.38",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "GP EG.39",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "GP EG.40",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "GP EG.41",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "GP EG.42",
+    "peopleInRoom": 79
+  },
+  {
+    "roomID": "GP EG.43",
+    "peopleInRoom": 60
+  },
+  {
+    "roomID": "GP EG.44",
+    "peopleInRoom": 40
+  },
+  {
+    "roomID": "GQ EG.03",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "GQ 1.05",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "GQ 1. OG.20",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "GQ EG.21",
+    "peopleInRoom": 12
+  },
+  {
+    "roomID": "GQ EG.22",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "GQ 1. OG.23",
+    "peopleInRoom": 45
+  },
+  {
+    "roomID": "GQ EG.24",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "GQ EG.30",
+    "peopleInRoom": 3
+  },
+  {
+    "roomID": "GQ 1. OG.31",
+    "peopleInRoom": 12
+  },
+  {
+    "roomID": "GQ 1. OG.32",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "GQ EG.33",
+    "peopleInRoom": 60
+  },
+  {
+    "roomID": "GQ 1. OG.34",
+    "peopleInRoom": 12
+  },
+  {
+    "roomID": "GQ 1. OG.35",
+    "peopleInRoom": 16
+  },
+  {
+    "roomID": "GQ 1. OG.36",
+    "peopleInRoom": 23
+  },
+  {
+    "roomID": "GQ 1. OG.37",
+    "peopleInRoom": 1
+  },
+  {
+    "roomID": "GQ 1. OG.38",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "GQ EG.39",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "GQ 1. OG.40",
+    "peopleInRoom": 45
+  },
+  {
+    "roomID": "GQ EG.41",
+    "peopleInRoom": 13
+  },
+  {
+    "roomID": "GQ 1. OG.42",
+    "peopleInRoom": 7
+  },
+  {
+    "roomID": "GQ 1. OG.43",
+    "peopleInRoom": 6
+  },
+  {
+    "roomID": "GQ 1. OG.44",
+    "peopleInRoom": 24
+  },
+  {
+    "roomID": "GS EG.02",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "GS 1.04",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "GS EG.20",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "GS EG.21",
+    "peopleInRoom": 12
+  },
+  {
+    "roomID": "GS 1. OG.22",
+    "peopleInRoom": 3
+  },
+  {
+    "roomID": "GS EG.23",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "GS 1. OG.24",
+    "peopleInRoom": 10
+  },
+  {
+    "roomID": "GS EG.30",
+    "peopleInRoom": 50
+  },
+  {
+    "roomID": "GS 1. OG.31",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "GS 1. OG.32",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "GS EG.33",
+    "peopleInRoom": 30
+  },
+  {
+    "roomID": "GS EG.34",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "GS 1. OG.35",
+    "peopleInRoom": 13
+  },
+  {
+    "roomID": "GS 1. OG.36",
+    "peopleInRoom": 6
+  },
+  {
+    "roomID": "GS EG.37",
+    "peopleInRoom": 11
+  },
+  {
+    "roomID": "GS EG.38",
+    "peopleInRoom": 17
+  },
+  {
+    "roomID": "GS EG.39",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "GS 1. OG.40",
+    "peopleInRoom": 100
+  },
+  {
+    "roomID": "GS EG.41",
+    "peopleInRoom": 32
+  },
+  {
+    "roomID": "GS EG.42",
+    "peopleInRoom": 80
+  },
+  {
+    "roomID": "GS 1. OG.43",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "GS EG.44",
+    "peopleInRoom": 2
+  },
+  {
+    "roomID": "GT EG.01",
+    "peopleInRoom": 12
+  },
+  {
+    "roomID": "GT EG.20",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "GT EG.21",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "GT EG.22",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "GT EG.23",
+    "peopleInRoom": 16
+  },
+  {
+    "roomID": "GT EG.24",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "GT EG.30",
+    "peopleInRoom": 35
+  },
+  {
+    "roomID": "GT EG.31",
+    "peopleInRoom": 6
+  },
+  {
+    "roomID": "GT EG.32",
+    "peopleInRoom": 100
+  },
+  {
+    "roomID": "GT EG.33",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "GT EG.34",
+    "peopleInRoom": 8
+  },
+  {
+    "roomID": "GT EG.35",
+    "peopleInRoom": 39
+  },
+  {
+    "roomID": "GT EG.36",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "GT EG.37",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "GT EG.38",
+    "peopleInRoom": 12
+  },
+  {
+    "roomID": "GT EG.39",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "GT EG.40",
+    "peopleInRoom": 12
+  },
+  {
+    "roomID": "GT EG.41",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "GT EG.42",
+    "peopleInRoom": 60
+  },
+  {
+    "roomID": "GT EG.43",
+    "peopleInRoom": 21
+  },
+  {
+    "roomID": "GT EG.44",
+    "peopleInRoom": 32
+  },
+  {
+    "roomID": "GU EG.12",
+    "peopleInRoom": 16
+  },
+  {
+    "roomID": "GU 1.08",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "GU 2.05",
+    "peopleInRoom": 10
+  },
+  {
+    "roomID": "GU 2. OG.20",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "GU 2. OG.21",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "GU EG.22",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "GU EG.23",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "GU EG.24",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "GU 1. OG.30",
+    "peopleInRoom": 2
+  },
+  {
+    "roomID": "GU 2. OG.31",
+    "peopleInRoom": 35
+  },
+  {
+    "roomID": "GU 1. OG.32",
+    "peopleInRoom": 20
+  },
+  {
+    "roomID": "GU EG.33",
+    "peopleInRoom": 22
+  },
+  {
+    "roomID": "GU EG.34",
+    "peopleInRoom": 26
+  },
+  {
+    "roomID": "GU 2. OG.35",
+    "peopleInRoom": 28
+  },
+  {
+    "roomID": "GU EG.36",
+    "peopleInRoom": 24
+  },
+  {
+    "roomID": "GU EG.37",
+    "peopleInRoom": 5
+  },
+  {
+    "roomID": "GU 1. OG.38",
+    "peopleInRoom": 50
+  },
+  {
+    "roomID": "GU EG.39",
+    "peopleInRoom": 8
+  },
+  {
+    "roomID": "GU EG.40",
+    "peopleInRoom": 18
+  },
+  {
+    "roomID": "GU 2. OG.41",
+    "peopleInRoom": 20
+  },
+  {
+    "roomID": "GU 2. OG.42",
+    "peopleInRoom": 15
+  },
+  {
+    "roomID": "GU 2. OG.43",
+    "peopleInRoom": 58
+  },
+  {
+    "roomID": "GU 2. OG.44",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "RA EG.10",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "RA 1.06",
+    "peopleInRoom": 14
+  },
+  {
+    "roomID": "RA 2.12",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "RA 1. OG.20",
+    "peopleInRoom": 33
+  },
+  {
+    "roomID": "RA 1. OG.21",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "RA 1. OG.22",
+    "peopleInRoom": 18
+  },
+  {
+    "roomID": "RA 2. OG.23",
+    "peopleInRoom": 25
+  },
+  {
+    "roomID": "RA EG.24",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "RA 1. OG.30",
+    "peopleInRoom": 20
+  },
+  {
+    "roomID": "RA 1. OG.31",
+    "peopleInRoom": 100
+  },
+  {
+    "roomID": "RA EG.32",
+    "peopleInRoom": 5
+  },
+  {
+    "roomID": "RA 1. OG.33",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "RA 2. OG.34",
+    "peopleInRoom": 27
+  },
+  {
+    "roomID": "RA EG.35",
+    "peopleInRoom": 9
+  },
+  {
+    "roomID": "RA EG.36",
+    "peopleInRoom": 30
+  },
+  {
+    "roomID": "RA EG.37",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "RA 1. OG.38",
+    "peopleInRoom": 8
+  },
+  {
+    "roomID": "RA 2. OG.39",
+    "peopleInRoom": 17
+  },
+  {
+    "roomID": "RA 1. OG.40",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "RA 1. OG.41",
+    "peopleInRoom": 51
+  },
+  {
+    "roomID": "RA 2. OG.42",
+    "peopleInRoom": 1
+  },
+  {
+    "roomID": "RA 2. OG.43",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "RA 1. OG.44",
+    "peopleInRoom": 30
+  },
+  {
+    "roomID": "RC EG.05",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "RC 1.09",
+    "peopleInRoom": 18
+  },
+  {
+    "roomID": "RC 1. OG.20",
+    "peopleInRoom": 19
+  },
+  {
+    "roomID": "RC EG.21",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "RC EG.22",
+    "peopleInRoom": 4
+  },
+  {
+    "roomID": "RC 1. OG.23",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "RC 1. OG.24",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "RC 1. OG.30",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "RC 1. OG.31",
+    "peopleInRoom": 11
+  },
+  {
+    "roomID": "RC 1. OG.32",
+    "peopleInRoom": 11
+  },
+  {
+    "roomID": "RC 1. OG.33",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "RC 1. OG.34",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "RC 1. OG.35",
+    "peopleInRoom": 15
+  },
+  {
+    "roomID": "RC EG.36",
+    "peopleInRoom": 12
+  },
+  {
+    "roomID": "RC EG.37",
+    "peopleInRoom": 14
+  },
+  {
+    "roomID": "RC 1. OG.38",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "RC 1. OG.39",
+    "peopleInRoom": 19
+  },
+  {
+    "roomID": "RC EG.40",
+    "peopleInRoom": 25
+  },
+  {
+    "roomID": "RC 1. OG.41",
+    "peopleInRoom": 14
+  },
+  {
+    "roomID": "RC EG.42",
+    "peopleInRoom": 45
+  },
+  {
+    "roomID": "RC 1. OG.43",
+    "peopleInRoom": 9
+  },
+  {
+    "roomID": "RC EG.44",
+    "peopleInRoom": 6
+  },
+  {
+    "roomID": "RD EG.03",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "RD 1.07",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "RD 1. OG.20",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "RD 1. OG.21",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "RD 1. OG.22",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "RD 1. OG.23",
+    "peopleInRoom": 10
+  },
+  {
+    "roomID": "RD EG.24",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "RD EG.30",
+    "peopleInRoom": 7
+  },
+  {
+    "roomID": "RD 1. OG.31",
+    "peopleInRoom": 10
+  },
+  {
+    "roomID": "RD EG.32",
+    "peopleInRoom": 20
+  },
+  {
+    "roomID": "RD EG.33",
+    "peopleInRoom": 7
+  },
+  {
+    "roomID": "RD 1. OG.34",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "RD 1. OG.35",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "RD 1. OG.36",
+    "peopleInRoom": 16
+  },
+  {
+    "roomID": "RD 1. OG.37",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "RD 1. OG.38",
+    "peopleInRoom": 1
+  },
+  {
+    "roomID": "RD EG.39",
+    "peopleInRoom": 20
+  },
+  {
+    "roomID": "RD 1. OG.40",
+    "peopleInRoom": 32
+  },
+  {
+    "roomID": "RD EG.41",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "RD 1. OG.42",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "RD 1. OG.43",
+    "peopleInRoom": 6
+  },
+  {
+    "roomID": "RD EG.44",
+    "peopleInRoom": 11
+  },
+  {
+    "roomID": "ZL O4.02",
+    "peopleInRoom": 22
+  }
+]

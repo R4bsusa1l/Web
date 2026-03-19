@@ -1,0 +1,13 @@
+ch.zhaw.it.pm3.occupi
+ch.zhaw.it.pm3.occupi.controllers
+ch.zhaw.it.pm3.occupi.history.api
+ch.zhaw.it.pm3.occupi.history.simulation
+ch.zhaw.it.pm3.occupi.model
+ch.zhaw.it.pm3.occupi.reservation.api
+ch.zhaw.it.pm3.occupi.reservation.simulation
+ch.zhaw.it.pm3.occupi.search
+ch.zhaw.it.pm3.occupi.sensors.api
+ch.zhaw.it.pm3.occupi.sensors.simulation
+ch.zhaw.it.pm3.occupi.storage
+ch.zhaw.it.pm3.occupi.ui
+ch.zhaw.it.pm3.occupi.util

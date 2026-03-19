@@ -1,0 +1,38 @@
+
+[
+  {
+    "roomId": "Room A",
+    "historyUsage": [
+      {
+        "date": "2025-11-15T10:00:00",
+        "occupancy": 15
+      },
+      {
+        "date": "2025-11-15T14:00:00",
+        "occupancy": 20
+      },
+      {
+        "date": "2025-11-16T09:00:00",
+        "occupancy": 10
+      }
+    ]
+  },
+  {
+    "roomId": "Room B",
+    "historyUsage": [
+      {
+        "date": "2025-11-16T09:00:00",
+        "occupancy": 8
+      },
+      {
+        "date": "2025-11-16T13:00:00",
+        "occupancy": 12
+      }
+    ]
+  },
+  {
+    "roomId": "Room C",
+    "historyUsage": []
+  }
+]
+
