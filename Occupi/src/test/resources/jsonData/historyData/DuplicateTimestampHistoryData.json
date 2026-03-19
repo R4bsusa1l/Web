@@ -1,0 +1,16 @@
+[
+  {
+    "roomId": "Duplicate Room",
+    "historyUsage": [
+      {
+        "date": "2025-12-01T10:00:00",
+        "occupancy": 5
+      },
+      {
+        "date": "2025-12-01T10:00:00",
+        "occupancy": 10
+      }
+    ]
+  }
+]
+

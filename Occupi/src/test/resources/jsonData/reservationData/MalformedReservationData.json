@@ -1,0 +1,11 @@
+[
+  {
+    "roomID": "malformed_room",
+    "timeWindows": [
+      {
+        "start": "not-a-valid-datetime",
+        "end": "2025-11-28T10:00:00"
+      }
+    ]
+  }
+]

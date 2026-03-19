@@ -1,0 +1,221 @@
+require("dotenv").config();
+
+const path = require("path");
+const express = require("express");
+const session = require("express-session");
+const PgStore = require("connect-pg-simple")(session);
+const bcrypt = require("bcrypt");
+const passport = require("passport");
+
+const { pool } = require("./db");
+const { initDb } = require("./initDb");
+const { configurePassport, isGoogleOAuthEnabled } = require("./auth");
+
+const app = express();
+const PORT = Number(process.env.PORT || 3000);
+const googleEnabled = isGoogleOAuthEnabled();
+
+configurePassport();
+
+app.set("view engine", "ejs");
+app.set("views", path.join(__dirname, "..", "views"));
+
+app.use(express.urlencoded({ extended: false }));
+app.use(express.static(path.join(__dirname, "..", "public")));
+
+app.use(
+  session({
+    store: new PgStore({
+      pool,
+      tableName: "session",
+      createTableIfMissing: true,
+    }),
+    secret: process.env.SESSION_SECRET || "insecure-dev-secret-change-me",
+    resave: false,
+    saveUninitialized: false,
+    cookie: {
+      httpOnly: true,
+      sameSite: "lax",
+      secure: false,
+      maxAge: 1000 * 60 * 60 * 24,
+    },
+  })
+);
+
+app.use(passport.initialize());
+app.use(passport.session());
+
+function ensureAuthenticated(req, res, next) {
+  if (req.isAuthenticated()) {
+    return next();
+  }
+  return res.redirect("/login");
+}
+
+function ensureGuest(req, res, next) {
+  if (req.isAuthenticated()) {
+    return res.redirect("/profile");
+  }
+  return next();
+}
+
+app.get("/", (req, res) => {
+  if (req.isAuthenticated()) {
+    return res.redirect("/profile");
+  }
+  return res.redirect("/login");
+});
+
+app.get("/register", ensureGuest, (req, res) => {
+  res.render("register", {
+    error: req.query.error || "",
+    email: req.query.email || "",
+    nickname: req.query.nickname || "",
+  });
+});
+
+app.post("/register", ensureGuest, async (req, res) => {
+  const email = (req.body.email || "").trim().toLowerCase();
+  const password = req.body.password || "";
+  const nickname = (req.body.nickname || "").trim();
+
+  if (!email || !password || !nickname) {
+    return res.redirect(
+      `/register?error=${encodeURIComponent(
+        "Email, password, and nickname are required."
+      )}&email=${encodeURIComponent(email)}&nickname=${encodeURIComponent(nickname)}`
+    );
+  }
+
+  if (password.length < 10) {
+    return res.redirect(
+      `/register?error=${encodeURIComponent(
+        "Password must be at least 10 characters."
+      )}&email=${encodeURIComponent(email)}&nickname=${encodeURIComponent(nickname)}`
+    );
+  }
+
+  try {
+    const existing = await pool.query("SELECT id FROM users WHERE email = $1 LIMIT 1", [email]);
+    if (existing.rowCount > 0) {
+      return res.redirect(
+        `/register?error=${encodeURIComponent(
+          "A user with this email already exists."
+        )}&email=${encodeURIComponent(email)}&nickname=${encodeURIComponent(nickname)}`
+      );
+    }
+
+    const passwordHash = await bcrypt.hash(password, 12);
+    await pool.query(
+      `
+      INSERT INTO users (email, password_hash, nickname, provider)
+      VALUES ($1, $2, $3, 'local')
+      `,
+      [email, passwordHash, nickname]
+    );
+
+    return res.redirect("/login?success=Account created. Please log in.");
+  } catch (error) {
+    return res.redirect(`/register?error=${encodeURIComponent("Registration failed.")}`);
+  }
+});
+
+app.get("/login", ensureGuest, (req, res) => {
+  res.render("login", {
+    error: req.query.error || "",
+    success: req.query.success || "",
+    googleEnabled,
+  });
+});
+
+app.post("/login", ensureGuest, (req, res, next) => {
+  passport.authenticate("local", (authError, user, info) => {
+    if (authError) {
+      return next(authError);
+    }
+    if (!user) {
+      const message = info?.message || "Login failed.";
+      return res.redirect(`/login?error=${encodeURIComponent(message)}`);
+    }
+
+    return req.logIn(user, (loginError) => {
+      if (loginError) {
+        return next(loginError);
+      }
+      return res.redirect("/profile");
+    });
+  })(req, res, next);
+});
+
+if (googleEnabled) {
+  app.get("/auth/google", ensureGuest, passport.authenticate("google", { scope: ["profile", "email"] }));
+  app.get(
+    "/auth/google/callback",
+    ensureGuest,
+    passport.authenticate("google", {
+      failureRedirect: "/login?error=Google+login+failed",
+    }),
+    (_req, res) => {
+      res.redirect("/profile");
+    }
+  );
+}
+
+app.get("/profile", ensureAuthenticated, (req, res) => {
+  res.render("profile", {
+    user: req.user,
+    success: req.query.success || "",
+    error: req.query.error || "",
+  });
+});
+
+app.post("/profile/nickname", ensureAuthenticated, async (req, res) => {
+  const nickname = (req.body.nickname || "").trim();
+
+  if (!nickname) {
+    return res.redirect("/profile?error=Nickname+cannot+be+empty");
+  }
+
+  try {
+    await pool.query("UPDATE users SET nickname = $1 WHERE id = $2", [nickname, req.user.id]);
+    return res.redirect("/profile?success=Nickname+updated");
+  } catch (error) {
+    return res.redirect("/profile?error=Could+not+update+nickname");
+  }
+});
+
+app.post("/logout", ensureAuthenticated, (req, res, next) => {
+  req.logout((error) => {
+    if (error) {
+      return next(error);
+    }
+    req.session.destroy(() => {
+      res.clearCookie("connect.sid");
+      return res.redirect("/login?success=Logged+out");
+    });
+  });
+});
+
+app.use((_req, res) => {
+  res.status(404).render("not-found");
+});
+
+app.use((error, _req, res, _next) => {
+  // Keep production responses generic to avoid leaking internals.
+  console.error(error);
+  res.status(500).send("Internal server error.");
+});
+
+async function startServer() {
+  try {
+    await initDb();
+    app.listen(PORT, () => {
+      console.log(`Web_Auth server running at http://localhost:${PORT}`);
+    });
+  } catch (error) {
+    console.error("Failed to initialize application:", error);
+    process.exit(1);
+  }
+}
+
+startServer();

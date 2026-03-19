@@ -11,6 +11,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "mongodb": "^6.18.0",
     "express": "^5.0.0-beta.1"
   },
   "devDependencies": {

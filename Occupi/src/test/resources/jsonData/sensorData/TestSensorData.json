@@ -1,0 +1,18 @@
+[
+  {
+    "roomID": "test_sensor_room_01",
+    "peopleInRoom": 5
+  },
+  {
+    "roomID": "test_sensor_room_02",
+    "peopleInRoom": 15
+  },
+  {
+    "roomID": "test_sensor_room_03",
+    "peopleInRoom": 0
+  },
+  {
+    "roomID": "test_sensor_room_04",
+    "peopleInRoom": 42
+  }
+]

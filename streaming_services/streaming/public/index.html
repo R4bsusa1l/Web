@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Streamer</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <button class="profile-button">Profile</button>
+            <button class="navigation-button" id="show-navigation">Navigation</button>
+            <button class="history-button">History</button>
+        </div>
+        <div class="main-content">
+            <div id="navigation-page" class="page active">
+                <h1>Tv - Shows</h1>
+                <ul id="video-list">
+                    <li class="skeleton-item"></li>
+                    <li class="skeleton-item"></li>
+                    <li class="skeleton-item"></li>
+                    <li class="skeleton-item"></li>
+                    <li class="skeleton-item"></li>
+                </ul>
+            </div>
+            <div id="viewing-page" class="page">
+                <div class="video-player-container">
+                    <video id="video-player" controls></video>
+                    <button class="fullscreen-button">
+                        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgZmlsbD0iY3VycmVudENvbG9yIiBjbGFzcz0iYmkgYmktZnVsbHNjcmVlbiIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJtMS41IDEuNWEuNS41IDAgMCAxIC41LS41aDRhLjUuNSAwIDAgMSAwIDFIMi41djNhLjUuNSAwIDAgMS0xIDB6bTExIDBhLjUuNSAwIDAgMSAxIDBWMi41aC0zYy0uMjcgMC0uNS0uMjIzLS41LS41cy4yMjMtLjUuNS0uNWg0YS41LjUgMCAwIDEgLjUuNXptMCA5Yy4yNyAwIC41LjIyMy41LjVzLS4yMjMuNS0uNS41aC00YS41LjUgMCAwIDEtLjUtLjV6bS0xMSAwYy4yNyAwIC41LjIyMy41LjVzLS4yMjMuNS0uNS41aC00YS41LjUgMCAwIDEtLjUtLjV6Ii8+CiAgPHBhdGggZmlsbC1ydWxlPSJldmVuT2RkIiBkPSJNMS40NzYgNy4zNDdBMi41IDIgMCAwIDAgLjUgOC41di00Ljk3Yy4wMy0uNTMyLjQ2Mi0uOTY3Ljk5OC0uOTg4YTIuNSA1IDAgMCAxIDUuNTUtLjIzNkw4IDEuNDcxYy4wMTgtLjU3Ny0uMjEtMS40NzMtLjIxLTEuNDczYS41LjUgMCAwIDEgLjUtLjVoMi44ODNhLjUuNSAwIDAgMSAuNS41YzAgLjY2LjA2IDEuMzg1LjI0NSAxLjc3NWwxLjg1IDEuMjMzbDEuODMyLTEuODMyYy4xNTgtLjE1OC4zMDgtLjMxMi40MzctLjQzN0ExLjUgMS41IDAgMCAwIDE1LjUuNWEuNS41IDAgMCAxIC41LjV2Mi42MzdjMC41MjkuMDUuOTcxLjQ2Mi45NzEuOTk4VjguNWEyLjUgMi41IDAgMCAwLTQuODY4LTEuMjI3bC0uNDk0LS4yNDVjLS43NzEtLjQyLS45MTYtLjE3OC0uOTk2LS4zNjNhLjUgLjUgMCAwIDEgLjIzNy0uMzc0bDEuMzcyLS43MDVsMS4zMDUtLjY0My45ODQtLjQ5Mi44OS0uNDQ0Yy4wMzktLjAyLS4xMDQtLjExNC0uMTQtLjEzOS0uMTg1LS4xMy0uNDUyLS4yOTQtLjY4OC0uNDI5LTMuNDctMi4yMi03LjY4OC0yLjY5Mi0xMS42OC0xLjAyMW0tLjI1OSAxMi4zNDhhMi41IDIuNSAwIDAgMCAuNSA4LjV2LTMuNjY5Yy0uMTQ0LS42NjEtLjM0Ny0xLjMzNy0uNjU1LTEuOTY2bC0uOTM2LS41MjQtMi4yNzItMS4zMjgtMi4yNzItMS4zMjgtLjYxNy0uMzU0Yy0uMDgtLjAzOS0uMTA5LS4wMjYtLjEzMi0uMDc5LS4wMjMtLjA1My0uMDM0LS4wNTItLjA1Mi0uMDctLjAxOC0uMDItLjA3OS0uMDctLjExNC0uMDlzLS4wODUtLjA3Mi0uMTItLjA5NWExLjUgMS41IDAgMCAwLTEuNzgtLjU1bC0uNjc4LjM3OC0uNzg3LjQyYy0uMTA2LjAyNi0uMDguMDYtLjA2Ni4xMjctLjA1NC4yNjcuMi40NTYuNDYyLjU1MS43NzEuNjY3IDIuMjI1LjczMyAzLjE2LjUxOS45MzMtLjIxMyAxLjU4LS40MDQgMi40MjgtLjcyOWEuNS41IDAgMCAxIC42ODgtLjE3bC45My42OTcuNzQ2LjU4Ni41MzguNDM3LjQxMy4zNDYuMzguMzI1YzIuOTYyIDIuNDgzIDYuNjEgMi41MDkgOS41NzQuMTU0LjU1LS40NDcuOTk1LS44MjUgMS40NDItMS4xNzcuMjI2LS4xNzguNDI5LS4zMDQuNTAzLS4zNTYuMTI2LS4wODcuMjU0LS4xNzYuMzQxLS4yMThhLjUuNSAwIDAgMSAuNjk2LjIzNyAxLjUgMS41IDAgMCAwIC45MDQtLjkxMkwxNS44MzYgNC4xMmExLjUgMS41IDAgMCAwLS45Mi0uOTEyYy0uMTg5LS4wMjYtLjM4Ni4wMDMtLjU1MS4wNjgtLjQ1Ny4xNzYtLjgyLjM3NS0xLjI1NS41NzFhLjUuNSAwIDAgMS0uNzk0LS4wMjYgMi41IDIuNSAwIDAgMC00Ljg2OS0uNzQ1bC0uNDEzLS4xODVhLjk5OC45OTggMCAwIDAtLjY5NS0uMTQ3Yy0uODcyLjA4OC0xLjQ0Ni4zMS0yLjMxOC42NjItLjU5NC4yNC0xLjE1LjQ5NC0xLjcwMy43My0uNDguMjE2LS45MzQuNDM1LTEuMzQ3LjY0Ni0uNzA3LjM2Ny0uOTEuNzM0LS44MyAxLjI3OWwuMDYuNDEyYy4xMjUuODYuMTY3IDEuOTMuMzM3IDIuNjc0LjMwNCAxLjM5My45NTEgMi4yMTQgMi4zMzMgMi44NDdsLjYyNC4yNzEuMzg2LjE3YS41LjUgMCAwIDEgLjI3NC42OTZ6Ii8+Cjwvc3ZnPg==" alt="Fullscreen">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/app.js"></script>
+</body>
+</html>

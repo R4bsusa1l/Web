@@ -1,0 +1,15 @@
+[
+  {
+    "buildingInfo": {
+      "shortName": "ZL",
+      "fullName": "ZL (Lagerstrasse)",
+      "street": "Lagerstrasse 45",
+      "postcode": "8004",
+      "city": "Zürich",
+      "department": "Department T"
+    },
+    "floors": [
+      "2. OG",
+      "3. OG"
+    ],
+]

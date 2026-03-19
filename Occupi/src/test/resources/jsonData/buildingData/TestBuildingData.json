@@ -1,0 +1,88 @@
+[
+  {
+    "buildingInfo": {
+      "shortName": "ZL",
+      "fullName": "ZL (Lagerstrasse)",
+      "street": "Lagerstrasse 45",
+      "postcode": "8004",
+      "city": "Zürich",
+      "department": "Department T"
+    },
+    "floors": [
+      "2. OG",
+      "3. OG"
+    ],
+    "rooms": [
+      {
+        "name": "ZL O3.01",
+        "floor": "3. OG",
+        "occupancy": 30,
+        "seats": 42,
+        "accessible": true,
+        "status": "FREE",
+        "equipment": {
+          "wallplugs": 8,
+          "wifiQuality": 4,
+          "roomInfrastructure": [
+            "WHITEBOARD",
+            "PROJECTOR"
+          ]
+        },
+        "currentEvents": [],
+        "description": "Großer Hörsaal, geeignet für Vorlesungen",
+        "roomType": "CLASS_ROOM"
+      },
+      {
+        "name": "ZL 02.10",
+        "floor": "2. OG",
+        "occupancy": 3,
+        "seats": 8,
+        "accessible": true,
+        "status": "FREE",
+        "equipment": {
+          "wallplugs": 2,
+          "wifiQuality": 4,
+          "roomInfrastructure": [
+            "WHITEBOARD"
+          ]
+        },
+        "currentEvents": [],
+        "description": "Kleiner Besprechungsraum",
+        "roomType": "MEETING_ROOM"
+      }
+    ]
+  },
+  {
+    "buildingInfo": {
+      "shortName": "TR",
+      "fullName": "TR (Technikumstrasse)",
+      "street": "Technikumstrasse 9",
+      "postcode": "8400",
+      "city": "Winterthur",
+      "department": "Department X"
+    },
+    "floors": [
+      "1. OG"
+    ],
+    "rooms": [
+      {
+        "name": "TR 1.01",
+        "floor": "1. OG",
+        "occupancy": 10,
+        "seats": 12,
+        "accessible": false,
+        "status": "FREE",
+        "equipment": {
+          "wallplugs": 4,
+          "wifiQuality": 3,
+          "roomInfrastructure": [
+            "WHITEBOARD"
+          ]
+        },
+        "currentEvents": [],
+        "description": "Kleiner Unterrichtsraum",
+        "roomType": "CLASS_ROOM"
+      }
+    ]
+  }
+]
