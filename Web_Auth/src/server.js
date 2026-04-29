@@ -5,7 +5,10 @@ const express = require("express");
 const session = require("express-session");
 const PgStore = require("connect-pg-simple")(session);
 const bcrypt = require("bcrypt");
+const helmet = require("helmet");
 const passport = require("passport");
+const rateLimit = require("express-rate-limit");
+const csrf = require("csurf");
 
 const { pool } = require("./db");
 const { initDb } = require("./initDb");
@@ -14,14 +17,31 @@ const { configurePassport, isGoogleOAuthEnabled } = require("./auth");
 const app = express();
 const PORT = Number(process.env.PORT || 3000);
 const googleEnabled = isGoogleOAuthEnabled();
+const isProduction = process.env.NODE_ENV === "production";
+const isTest = process.env.NODE_ENV === "test";
+const sessionSecret = isTest
+  ? "test-only-session-secret-32-characters!"
+  : process.env.SESSION_SECRET || "";
+const insecureSessionSecrets = new Set([
+  "insecure-dev-secret-change-me",
+  "replace-with-long-random-secret",
+]);
+
+if (!sessionSecret || insecureSessionSecrets.has(sessionSecret) || sessionSecret.length < 32) {
+  throw new Error("SESSION_SECRET is missing or insecure. Set a strong value in .env.");
+}
 
 configurePassport();
 
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "..", "views"));
+if (isProduction) {
+  app.set("trust proxy", 1);
+}
 
 app.use(express.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, "..", "public")));
+app.use(helmet());
 
 app.use(
   session({
@@ -30,20 +50,34 @@ app.use(
       tableName: "session",
       createTableIfMissing: true,
     }),
-    secret: process.env.SESSION_SECRET || "insecure-dev-secret-change-me",
+    secret: sessionSecret,
     resave: false,
     saveUninitialized: false,
+    rolling: true,
     cookie: {
       httpOnly: true,
       sameSite: "lax",
-      secure: false,
-      maxAge: 1000 * 60 * 60 * 24,
+      secure: isProduction,
+      maxAge: 1000 * 60 * 60,
     },
   })
 );
 
 app.use(passport.initialize());
 app.use(passport.session());
+app.use(csrf());
+app.use((req, res, next) => {
+  res.locals.csrfToken = req.csrfToken();
+  next();
+});
+
+const authLimiter = rateLimit({
+  windowMs: 15 * 60 * 1000,
+  max: 20,
+  standardHeaders: true,
+  legacyHeaders: false,
+  message: "Too many auth attempts. Please try again later.",
+});
 
 function ensureAuthenticated(req, res, next) {
   if (req.isAuthenticated()) {
@@ -74,7 +108,7 @@ app.get("/register", ensureGuest, (req, res) => {
   });
 });
 
-app.post("/register", ensureGuest, async (req, res) => {
+app.post("/register", authLimiter, ensureGuest, async (req, res) => {
   const email = (req.body.email || "").trim().toLowerCase();
   const password = req.body.password || "";
   const nickname = (req.body.nickname || "").trim();
@@ -100,7 +134,7 @@ app.post("/register", ensureGuest, async (req, res) => {
     if (existing.rowCount > 0) {
       return res.redirect(
         `/register?error=${encodeURIComponent(
-          "A user with this email already exists."
+          "Registration failed."
         )}&email=${encodeURIComponent(email)}&nickname=${encodeURIComponent(nickname)}`
       );
     }
@@ -128,7 +162,7 @@ app.get("/login", ensureGuest, (req, res) => {
   });
 });
 
-app.post("/login", ensureGuest, (req, res, next) => {
+app.post("/login", authLimiter, ensureGuest, (req, res, next) => {
   passport.authenticate("local", (authError, user, info) => {
     if (authError) {
       return next(authError);
@@ -148,9 +182,15 @@ app.post("/login", ensureGuest, (req, res, next) => {
 });
 
 if (googleEnabled) {
-  app.get("/auth/google", ensureGuest, passport.authenticate("google", { scope: ["profile", "email"] }));
+  app.get(
+    "/auth/google",
+    authLimiter,
+    ensureGuest,
+    passport.authenticate("google", { scope: ["profile", "email"] })
+  );
   app.get(
     "/auth/google/callback",
+    authLimiter,
     ensureGuest,
     passport.authenticate("google", {
       failureRedirect: "/login?error=Google+login+failed",
@@ -172,8 +212,8 @@ app.get("/profile", ensureAuthenticated, (req, res) => {
 app.post("/profile/nickname", ensureAuthenticated, async (req, res) => {
   const nickname = (req.body.nickname || "").trim();
 
-  if (!nickname) {
-    return res.redirect("/profile?error=Nickname+cannot+be+empty");
+  if (!nickname || nickname.length > 40) {
+    return res.redirect("/profile?error=Nickname+must+be+between+1+and+40+characters");
   }
 
   try {
@@ -201,6 +241,9 @@ app.use((_req, res) => {
 });
 
 app.use((error, _req, res, _next) => {
+  if (error.code === "EBADCSRFTOKEN") {
+    return res.status(403).send("Invalid CSRF token.");
+  }
   // Keep production responses generic to avoid leaking internals.
   console.error(error);
   res.status(500).send("Internal server error.");
