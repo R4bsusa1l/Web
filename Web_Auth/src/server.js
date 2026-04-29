@@ -18,9 +18,16 @@ const app = express();
 const PORT = Number(process.env.PORT || 3000);
 const googleEnabled = isGoogleOAuthEnabled();
 const isProduction = process.env.NODE_ENV === "production";
-const sessionSecret = process.env.SESSION_SECRET;
+const isTest = process.env.NODE_ENV === "test";
+const sessionSecret = isTest
+  ? "test-only-session-secret-32-characters!"
+  : process.env.SESSION_SECRET || "";
+const insecureSessionSecrets = new Set([
+  "insecure-dev-secret-change-me",
+  "replace-with-long-random-secret",
+]);
 
-if (!sessionSecret || sessionSecret === "insecure-dev-secret-change-me") {
+if (!sessionSecret || insecureSessionSecrets.has(sessionSecret) || sessionSecret.length < 32) {
   throw new Error("SESSION_SECRET is missing or insecure. Set a strong value in .env.");
 }
 
@@ -49,7 +56,7 @@ app.use(
     rolling: true,
     cookie: {
       httpOnly: true,
-      sameSite: "strict",
+      sameSite: "lax",
       secure: isProduction,
       maxAge: 1000 * 60 * 60,
     },
@@ -175,9 +182,15 @@ app.post("/login", authLimiter, ensureGuest, (req, res, next) => {
 });
 
 if (googleEnabled) {
-  app.get("/auth/google", ensureGuest, passport.authenticate("google", { scope: ["profile", "email"] }));
+  app.get(
+    "/auth/google",
+    authLimiter,
+    ensureGuest,
+    passport.authenticate("google", { scope: ["profile", "email"] })
+  );
   app.get(
     "/auth/google/callback",
+    authLimiter,
     ensureGuest,
     passport.authenticate("google", {
       failureRedirect: "/login?error=Google+login+failed",
