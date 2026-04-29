@@ -4,6 +4,8 @@ const LocalStrategy = require("passport-local").Strategy;
 const GoogleStrategy = require("passport-google-oauth20").Strategy;
 const { pool } = require("./db");
 
+const USER_PUBLIC_COLUMNS = "id, email, nickname, provider, google_id, created_at";
+
 function configurePassport() {
   passport.use(
     new LocalStrategy(
@@ -11,7 +13,7 @@ function configurePassport() {
       async (email, password, done) => {
         try {
           const result = await pool.query(
-            "SELECT * FROM users WHERE email = $1 LIMIT 1",
+            `SELECT ${USER_PUBLIC_COLUMNS}, password_hash FROM users WHERE email = $1 LIMIT 1`,
             [email.toLowerCase()]
           );
           const user = result.rows[0];
@@ -25,6 +27,7 @@ function configurePassport() {
             return done(null, false, { message: "Invalid email or password." });
           }
 
+          delete user.password_hash;
           return done(null, user);
         } catch (error) {
           return done(error);
@@ -56,14 +59,14 @@ function configurePassport() {
             const displayName = profile.displayName || email.split("@")[0];
 
             let result = await pool.query(
-              "SELECT * FROM users WHERE google_id = $1 LIMIT 1",
+              `SELECT ${USER_PUBLIC_COLUMNS} FROM users WHERE google_id = $1 LIMIT 1`,
               [googleId]
             );
             let user = result.rows[0];
 
             if (!user) {
               result = await pool.query(
-                "SELECT * FROM users WHERE email = $1 LIMIT 1",
+                `SELECT ${USER_PUBLIC_COLUMNS} FROM users WHERE email = $1 LIMIT 1`,
                 [email]
               );
               user = result.rows[0];
@@ -74,22 +77,16 @@ function configurePassport() {
                 `
                 INSERT INTO users (email, nickname, provider, google_id)
                 VALUES ($1, $2, 'google', $3)
-                RETURNING *
+                RETURNING ${USER_PUBLIC_COLUMNS}
                 `,
                 [email, displayName, googleId]
               );
               user = result.rows[0];
-            } else if (!user.google_id) {
-              result = await pool.query(
-                `
-                UPDATE users
-                SET google_id = $1, provider = 'google'
-                WHERE id = $2
-                RETURNING *
-                `,
-                [googleId, user.id]
-              );
-              user = result.rows[0];
+            } else if (!user.google_id && user.provider === "local") {
+              return done(null, false, {
+                message:
+                  "An account with this email already exists. Please sign in with email/password.",
+              });
             }
 
             return done(null, user);
@@ -107,7 +104,10 @@ function configurePassport() {
 
   passport.deserializeUser(async (id, done) => {
     try {
-      const result = await pool.query("SELECT * FROM users WHERE id = $1 LIMIT 1", [id]);
+      const result = await pool.query(
+        `SELECT ${USER_PUBLIC_COLUMNS} FROM users WHERE id = $1 LIMIT 1`,
+        [id]
+      );
       done(null, result.rows[0] || false);
     } catch (error) {
       done(error);

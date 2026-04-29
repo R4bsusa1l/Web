@@ -19,6 +19,7 @@
   </dl>
 
   <form method="post" action="/profile/nickname" class="form">
+    <input type="hidden" name="_csrf" value="<%= csrfToken %>" />
     <label for="nickname">Nickname</label>
     <input
       id="nickname"
@@ -32,6 +33,7 @@
   </form>
 
   <form method="post" action="/logout">
+    <input type="hidden" name="_csrf" value="<%= csrfToken %>" />
     <button type="submit" class="button-secondary">Logout</button>
   </form>
 </section>
